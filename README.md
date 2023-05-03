@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <!--img src="logo.png" alt="logo" width="140"  height="auto" /-->
   <br/>
 
   <h3><b>Rhodny's Portfolio</b></h3>
@@ -119,6 +119,7 @@ N/A
 
 **In the immediate future I will add:**
 - A complete personal portfolio that can be viewed in mobile and destop as well.
+- A logo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
