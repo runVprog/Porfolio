@@ -5,9 +5,9 @@
   padding: 0;
 }
 
-h1 {font-family: 'Playfair Display', serif;}
+h1 { font-family: 'Playfair Display', serif; }
 
-p {font-family: 'Poppins', sans-serif;}
+p { font-family: 'Poppins', sans-serif; }
 
 .dark-blue {
   color: #1a2236;
@@ -16,7 +16,6 @@ p {font-family: 'Poppins', sans-serif;}
 .bg-dark-blue {
   background-color: #1a2236;
 }
-
 
 /* Nav */
 
@@ -48,7 +47,7 @@ p {font-family: 'Poppins', sans-serif;}
 
 /* Section 1 */
 
-.section1-container {margin-top: 30px;}
+.section1-container { margin-top: 30px; }
 
 .section1 {
   margin-left: 16px;
@@ -82,7 +81,7 @@ p {font-family: 'Poppins', sans-serif;}
 .start-collab {
   height: 50px;
   width: 350px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   line-height: 20px;
   margin-top: 24px;
