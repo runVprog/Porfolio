@@ -25,7 +25,7 @@ p { font-family: 'Poppins', sans-serif; }
   justify-content: space-between;
 }
 
-.css-image-bg {
+.css-background-img {
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,9 +85,16 @@ p { font-family: 'Poppins', sans-serif; }
   line-height: 20px;
   margin-top: 24px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
-.thur-image {
+.start-collab:hover {
+  background-color: #e5e5e5;
+  border: solid 1px #1a2236;
+  color: #1a2236;
+}
+
+.thur-background-img {
   background-image: url("images/Thur.png");
   height: 160px;
   background-position: relative;
