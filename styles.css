@@ -18,9 +18,10 @@ p {font-family: 'Poppins', sans-serif;}
 }
 
 
-/* top edge */
+/* Nav */
 
 .top-edge-container {
+  margin-bottom: 19px;
   display: flex;
   justify-content: space-between;
 }
@@ -34,17 +35,20 @@ p {font-family: 'Poppins', sans-serif;}
 .geometry-image {
   background-image: url("images/image_geometry_1.png");
   height: 74px;
-  width: 74px;
+  width: 109px;
 }
 
 .ic-menu {
   background-image: url("images/ic_menu.png");
+  margin: 19px 14px;
   height: 14px;
   width: 20px;
   background-position: center;
 }
 
 /* Section 1 */
+
+.section1-container {margin-top: 30px;}
 
 .section1 {
   margin-left: 16px;
@@ -57,6 +61,10 @@ p {font-family: 'Poppins', sans-serif;}
   align-items: center;
 }
 
+.contents p {
+  color:#1a2236;
+}
+
 .name {
   font-size: 50px;
   line-height: 50px;
@@ -64,19 +72,21 @@ p {font-family: 'Poppins', sans-serif;}
 }
 
 .intro-p {
+  margin-top: 20px;
   font-size: 14px;
-  text-align: left;
-
+  font-weight: 800;
+  line-height: 21px;
+  //text-align: left;
 }
 
 .start-collab {
   height: 50px;
-  width: 288px;
+  width: 350px;
   color: #ffffff;
   text-align: center;
   line-height: 20px;
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .thur-image {
