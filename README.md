@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <!--img src="logo.png" alt="logo" width="140"  height="auto" /-->
   <br/>
 
   <h3><b>Rhodny's Portfolio</b></h3>
@@ -32,10 +32,10 @@
 - [📝 License](#license)
 
 
-# 📖 Hello Microverse Project <a name="about-project"></a>
+# 📖 Rhodny's Porfolio <a name="about-project"></a>
 
 
-The **Hello Microverse Project** is a sample project that displays the words "Hello Microverse". It is the very first project that Microverse students complete to get familiar with GitHub Flow.
+**Rhodny's Porfolio** is a project that displays the portfolio template to be developed by myself. It is the very first project that Microverse students complete to making their own personal portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,8 +55,8 @@ The **Hello Microverse Project** is a sample project that displays the words "He
 ### Key Features <a name="key-features"></a>
 
 
-- **README**
-- **Linters checkers**
+- **Porfolio template**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ To get a local copy up and running, follow these steps:
 
 In order to run this project you need:
 
-- A GitHub account
+- A [GitHub account](https://github.com/)
 
 ### Setup
 
@@ -118,7 +118,8 @@ N/A
 ## 🔭 Future Features <a name="future-features"></a>
 
 **In the immediate future I will add:**
-- A personal logo to this README
+- A complete personal portfolio that can be viewed in mobile and destop as well.
+- A logo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +143,7 @@ Feel free to check the [issues page](https://github.com/runVprog/Hello-Microvers
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my Microverse mentor, Samuel Takyi, for taking the time to help me when I get stuck. I would also like to thank my fellow Microverse classmate, Peter Yeung, and my learning partners, Nelly Telly and Riley Manda, for helping me at times despite their busy schedules.
+I would like to thank my Microverse mentor, Samuel Takyi, for taking the time to help me when I get stuck. I would also like to thank my fellow Microverse classmate, Peter Yeung, and my learning partner Cephas Tokoli, for helping me at times despite their busy schedules.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +151,7 @@ I would like to thank my Microverse mentor, Samuel Takyi, for taking the time to
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/runVprog/Hello-Microverse/blob/add-linters/LICENSE) licensed.
+This project is [MIT](https://github.com/runVprog/Porfolio/blob/top-section/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

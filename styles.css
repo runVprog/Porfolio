@@ -1,0 +1,101 @@
+/* General CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 { font-family: 'Playfair Display', serif; }
+
+p { font-family: 'Poppins', sans-serif; }
+
+.dark-blue {
+  color: #1a2236;
+}
+
+.bg-dark-blue {
+  background-color: #1a2236;
+}
+
+/* Nav */
+
+.top-edge-container {
+  margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-background-img {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.geometry-image {
+  background-image: url("images/image_geometry_1.png");
+  height: 74px;
+  width: 109px;
+}
+
+.ic-menu {
+  background-image: url("images/ic_menu.png");
+  margin: 19px 14px;
+  height: 14px;
+  width: 20px;
+  background-position: center;
+}
+
+/* Section 1 */
+
+.section1-container { margin-top: 30px; }
+
+.section1 {
+  margin-left: 16px;
+  margin-right: 14px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents p {
+  color: #1a2236;
+}
+
+.name {
+  font-size: 50px;
+  line-height: 50px;
+  text-align: left;
+}
+
+.intro-p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.start-collab {
+  height: 50px;
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.start-collab:hover {
+  background-color: #e5e5e5;
+  border: solid 1px #1a2236;
+  color: #1a2236;
+}
+
+.thur-background-img {
+  background-image: url("images/Thur.png");
+  height: 160px;
+  background-position: relative;
+}
