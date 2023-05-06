@@ -1,7 +1,5 @@
 /* Global CSS */
 
-
-
 h1 { font-family: Playfair Display, serif; }
 
 p { font-family: Poppins, sans-serif; }
@@ -108,7 +106,10 @@ p { font-family: Poppins, sans-serif; }
 
 /* Works Section 1 of 3 */
 
-.img-laptop1 { width: 100%; height: auto; }
+.img-laptop1 {
+  width: 100%; 
+  height: auto;
+}
 
 .greenish-box {
   width: 80px;
