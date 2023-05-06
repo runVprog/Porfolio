@@ -1,25 +1,22 @@
 /* Global CSS */
 
-* {
-  margin: 0;
-  padding: 0;
-}
+* { margin: 0; padding: 0; }
 
 h1 { font-family: 'Playfair Display', serif; }
 
 p { font-family: 'Poppins', sans-serif; }
 
-.dark-blue {
-  color: #1a2236;
-}
+.dark-blue { color: #1a2236; }
 
-.bg-dark-blue {
-  background-color: #1a2236;
-}
+.bg-dark-blue { background-color: #1a2236; }
 
-.white {
-  color:#fff;
-}
+.white { color:#fff; }
+
+.bg-bluish { background-color: #1c528a; }
+
+.bg-redish { background-color: #e2505c; }
+
+.bg-yellowish { background-color: #febf52; }
 
 /* Nav */
 
@@ -164,7 +161,7 @@ p { font-family: 'Poppins', sans-serif; }
   justify-content: center;
 }
 
-.bluish {
+.box-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,7 +170,6 @@ p { font-family: 'Poppins', sans-serif; }
   width: 308px;
   height: 340px;
   padding: 20px;
-  background-color: #1c528a;
   list-style: none;
 }
 
@@ -204,6 +200,22 @@ p { font-family: 'Poppins', sans-serif; }
   left: 19px;
 }
 
-/* ul.space {
-  list-style-type: disc;
-} */
+.card {
+  background-image: url("images/card.png");
+  height: 102px;
+  width: 102px;
+  align-self: last baseline;
+  position: relative;
+  top: 20px;
+  left: 19px;
+}
+
+.idea {
+  background-image: url("images/idea.png");
+  height: 102px;
+  width: 102px;
+  align-self: last baseline;
+  position: relative;
+  bottom: 33px;
+  left: 19px;
+}
