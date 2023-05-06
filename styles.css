@@ -1,16 +1,16 @@
 /* Global CSS */
 
-* { margin: 0; padding: 0; }
 
-h1 { font-family: 'Playfair Display', serif; }
 
-p { font-family: 'Poppins', sans-serif; }
+h1 { font-family: Playfair Display, serif; }
+
+p { font-family: Poppins, sans-serif; }
 
 .dark-blue { color: #1a2236; }
 
 .bg-dark-blue { background-color: #1a2236; }
 
-.white { color:#fff; }
+.white { color: #fff; }
 
 .bg-white { background-color: #fff; }
 
@@ -20,7 +20,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 .bg-yellowish { background-color: #febf52; }
 
-.bg-offwhite { background-color: #f9f9fa;}
+.bg-offwhite { background-color: #f9f9fa; }
 
 .offwhite { color: #dfdfe0; }
 
@@ -108,7 +108,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 /* Works Section 1 of 3 */
 
-.img-laptop1 { width:100%; height: auto; }
+.img-laptop1 { width: 100%; height: auto; }
 
 .greenish-box {
   width: 80px;
@@ -118,7 +118,7 @@ p { font-family: 'Poppins', sans-serif; }
   padding: 2px;
   background-color: #98dede;
   list-style-type: none;
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-size: 11px;
   font-weight: 300;
 }
@@ -146,10 +146,10 @@ p { font-family: 'Poppins', sans-serif; }
   border: solid 1px;
   box-sizing: border-box;
   padding-left: 12px;
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-size: 16px;
   height: 50px;
-  width: 180px;;
+  width: 180px;
   text-align: left;
   line-height: 20px;
   cursor: pointer;
@@ -172,7 +172,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 .box-wrapper {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -192,7 +192,7 @@ p { font-family: 'Poppins', sans-serif; }
   position: relative;
   margin-bottom: 20px;
   margin-top: 80px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 800;
   font-size: 22px;
   margin-left: 29%;
@@ -202,7 +202,7 @@ p { font-family: 'Poppins', sans-serif; }
 .list-languages,
 .list-frameworks,
 .list-skills {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 17px;
   list-style-type: disc;
@@ -281,7 +281,7 @@ p { font-family: 'Poppins', sans-serif; }
 .small-title {
   display: flex;
   align-items: flex-end;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 10px;
 }
 
