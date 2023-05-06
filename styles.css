@@ -1,26 +1,37 @@
-/* General CSS */
+/* Global CSS */
 
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-h1 { font-family: 'Playfair Display', serif; }
+h1 { font-family: Playfair Display, serif; }
 
-p { font-family: 'Poppins', sans-serif; }
+p { font-family: Poppins, sans-serif; }
 
-.dark-blue {
-  color: #1a2236;
-}
+.dark-blue { color: #1a2236; }
 
-.bg-dark-blue {
-  background-color: #1a2236;
-}
+.bg-dark-blue { background-color: #1a2236; }
+
+.white { color: #fff; }
+
+.bg-white { background-color: #fff; }
+
+.bg-bluish { background-color: #1c528a; }
+
+.bg-redish { background-color: #e2505c; }
+
+.bg-yellowish { background-color: #febf52; }
+
+.bg-offwhite { background-color: #f9f9fa; }
+
+.offwhite { color: #dfdfe0; }
+
+.greenish { color: #92dcdc; }
 
 /* Nav */
 
 .top-edge-container {
-  margin-bottom: 19px;
   display: flex;
   justify-content: space-between;
 }
@@ -31,7 +42,7 @@ p { font-family: 'Poppins', sans-serif; }
   background-size: cover;
 }
 
-.geometry-image {
+.geo-background-img {
   background-image: url("images/image_geometry_1.png");
   height: 74px;
   width: 109px;
@@ -45,13 +56,12 @@ p { font-family: 'Poppins', sans-serif; }
   background-position: center;
 }
 
-/* Section 1 */
+/* Container rules */
 
-.section1-container { margin-top: 30px; }
+.section-container { margin-top: 30px; }
 
-.section1 {
-  margin-left: 16px;
-  margin-right: 14px;
+.section-sub {
+  margin: 37px 22px 30px 22px;
 }
 
 .contents {
@@ -60,31 +70,32 @@ p { font-family: 'Poppins', sans-serif; }
   align-items: center;
 }
 
-.contents p {
-  color: #1a2236;
-}
-
-.name {
+.title {
   font-size: 50px;
-  line-height: 50px;
+  line-height: 49px;
   text-align: left;
+  margin-bottom: 20;
 }
 
-.intro-p {
-  margin-top: 20px;
+.paragraph {
+  margin-top: 11px;
+  margin-bottom: 3px;
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
 }
 
-.start-collab {
+/* Headline Section */
+
+.collab-button {
   height: 50px;
-  width: 350px;
-  color: #fff;
+  width: 338px;
   text-align: center;
   line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
   margin-top: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 
@@ -96,6 +107,210 @@ p { font-family: 'Poppins', sans-serif; }
 
 .thur-background-img {
   background-image: url("images/Thur.png");
-  height: 160px;
-  background-position: relative;
+  height: 184px;
+}
+
+/* Works Section 1 of 3 */
+
+.img-laptop1 {
+  width: 100%;
+  height: auto;
+}
+
+.greenish-box {
+  width: 80px;
+  height: 23px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 2px;
+  background-color: #98dede;
+  list-style-type: none;
+  font-family: poppins, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.section-dark {
+  display: flex;
+  flex-direction: column;
+  height: 195px;
+  margin-top: -6px;
+  padding-left: 24px;
+}
+
+.space {
+  display: flex;
+  column-gap: 10px;
+  position: relative;
+  right: 40px;
+}
+
+.project-goes {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1px;
+}
+
+.see-button {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border: solid 1px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  height: 50px;
+  width: 180px;
+  text-align: left;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.pointing {
+  display: flex;
+}
+
+/* About Myself Section */
+
+.icon {
+  padding-left: 12px;
+  padding-top: 16px;
+}
+
+.cv-download {
+  display: flex;
+  justify-content: center;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
+  height: 303px;
+  padding: 20px;
+  list-style: none;
+}
+
+.title-sub {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  margin-left: 29%;
+  width: inherit;
+}
+
+.list-languages,
+.list-frameworks,
+.list-skills {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  list-style-type: disc;
+}
+
+.list-frameworks {
+  margin-left: -70px;
+}
+
+.list-skills {
+  margin-right: -24px;
+}
+
+.pound {
+  background-image: url("images/pound.png");
+  height: 102px;
+  width: 102px;
+  align-self: last baseline;
+  position: relative;
+  top: 2px;
+  left: 19px;
+  flex-shrink: 0;
+}
+
+.card {
+  background-image: url("images/card.png");
+  height: 102px;
+  width: 102px;
+  align-self: last baseline;
+  position: relative;
+  bottom: -2px;
+  left: 20px;
+  flex-shrink: 0;
+}
+
+.idea {
+  background-image: url("images/idea.png");
+  height: 102px;
+  width: 102px;
+  align-self: last baseline;
+  position: relative;
+  left: 19px;
+  flex-shrink: 0;
+  bottom: 12px;
+}
+
+.input-button {
+  height: 52px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  border: solid 1px #f9f9fa;
+  cursor: pointer;
+}
+
+.getmy {
+  display: flex;
+  justify-content: center;
+}
+
+.point-up {
+  padding-left: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.small-title {
+  display: flex;
+  align-items: flex-end;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+}
+
+.bigger-box {
+  height: 113px;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  border: solid 1px #f9f9fa;
+  cursor: pointer;
+}
+
+.section-bottom {
+  height: 92px;
+  margin-top: -6px;
+  padding: 30px 20px 30px 20px;
 }
