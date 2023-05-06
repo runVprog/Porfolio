@@ -61,7 +61,7 @@ p { font-family: Poppins, sans-serif; }
 .section-container { margin-top: 30px; }
 
 .section-sub {
-  margin: 40px 22px 30px 22px;
+  margin: 37px 22px 30px 22px;
 }
 
 .contents {
@@ -72,12 +72,13 @@ p { font-family: Poppins, sans-serif; }
 
 .title {
   font-size: 50px;
-  line-height: 50px;
+  line-height: 49px;
   text-align: left;
+  margin-bottom: 20;
 }
 
 .paragraph {
-  margin-top: 20px;
+  margin-top: 11px;
   margin-bottom: 3px;
   font-size: 14px;
   font-weight: 300;
@@ -132,7 +133,7 @@ p { font-family: Poppins, sans-serif; }
 .section-dark {
   display: flex;
   flex-direction: column;
-  height: 190px;
+  height: 195px;
   margin-top: -6px;
   padding-left: 24px;
 }
@@ -141,7 +142,7 @@ p { font-family: Poppins, sans-serif; }
   display: flex;
   column-gap: 10px;
   position: relative;
-  right: 39px;
+  right: 40px;
 }
 
 .project-goes {
@@ -151,7 +152,7 @@ p { font-family: Poppins, sans-serif; }
 }
 
 .see-button {
-  /* margin-top: 19px; */
+  margin-top: 8px;
   margin-bottom: 5px;
   border: solid 1px;
   box-sizing: border-box;
@@ -167,7 +168,6 @@ p { font-family: Poppins, sans-serif; }
 
 .pointing {
   display: flex;
-  /* padding-bottom: 8px; */
 }
 
 /* About Myself Section */
@@ -245,7 +245,7 @@ p { font-family: Poppins, sans-serif; }
   width: 102px;
   align-self: last baseline;
   position: relative;
-  top: 2px;
+  bottom: -2px;
   left: 20px;
   flex-shrink: 0;
 }
@@ -258,7 +258,7 @@ p { font-family: Poppins, sans-serif; }
   position: relative;
   left: 19px;
   flex-shrink: 0;
-  bottom: 50px;
+  bottom: 12px;
 }
 
 .input-button {
