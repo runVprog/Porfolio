@@ -20,9 +20,11 @@ p { font-family: 'Poppins', sans-serif; }
 
 .bg-yellowish { background-color: #febf52; }
 
-.bf-offwhite { background-color: #f9f9fa;}
+.bg-offwhite { background-color: #f9f9fa;}
 
-.offwhite { color: #dfdfe0}
+.offwhite { color: #dfdfe0; }
+
+.greenish { color: #92dcdc; }
 
 /* Nav */
 
@@ -56,7 +58,7 @@ p { font-family: 'Poppins', sans-serif; }
 .section-container { margin-top: 30px; }
 
 .section-sub {
-  margin: 40px 14px 30px 16px;
+  margin: 40px 22px 30px 22px;
 }
 
 .contents {
@@ -73,6 +75,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 .paragraph {
   margin-top: 20px;
+  margin-bottom: 3px;
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
@@ -82,7 +85,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 .collab-button {
   height: 50px;
-  width: 350px;
+  width: 338px;
   text-align: center;
   line-height: 20px;
   font-size: 16px;
@@ -100,7 +103,7 @@ p { font-family: 'Poppins', sans-serif; }
 
 .thur-background-img {
   background-image: url("images/Thur.png");
-  height: 190px;
+  height: 184px;
 }
 
 /* Works Section 1 of 3 */
@@ -121,9 +124,9 @@ p { font-family: 'Poppins', sans-serif; }
 }
 
 .section-dark {
-  height: 130px;
+  height: 139px;
   margin-top: -6px;
-  padding: 20px 20px 36px 20px;
+  padding: 30px 20px 30px 20px;
 }
 
 .space {
@@ -179,8 +182,8 @@ p { font-family: 'Poppins', sans-serif; }
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  width: 308px;
-  height: 340px;
+  width: 300px;
+  height: 303px;
   padding: 20px;
   list-style: none;
 }
@@ -219,8 +222,9 @@ p { font-family: 'Poppins', sans-serif; }
   width: 102px;
   align-self: last baseline;
   position: relative;
-  top: 20px;
+  top: 2px;
   left: 19px;
+  flex-shrink: 0;
 }
 
 .card {
@@ -229,8 +233,9 @@ p { font-family: 'Poppins', sans-serif; }
   width: 102px;
   align-self: last baseline;
   position: relative;
-  top: 20px;
-  left: 19px;
+  top: 2px;
+  left: 20px;
+  flex-shrink: 0;
 }
 
 .idea {
@@ -241,18 +246,72 @@ p { font-family: 'Poppins', sans-serif; }
   position: relative;
   left: 19px;
   flex-shrink: 0;
-  top: 9px;
+  bottom: 50px;
 }
 
 .input-button {
-  height: 50px;
-  width: 350px;
+  height: 52px;
+  display: flex;
+  width: 100%;
   text-align: center;
   line-height: 20px;
   font-size: 16px;
   letter-spacing: 1px;
-  margin-top: 24px;
   margin-bottom: 5px;
   border: solid 1px #f9f9fa;
   cursor: pointer;
 }
+
+.getmy {
+  display: flex;
+  justify-content: center;
+}
+
+.point-up {
+  padding-left: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.small-title {
+  display: flex;
+  align-items: flex-end;
+  font-family: Poppins;
+  font-size: 10px;
+}
+
+.bigger-box {
+  height: 113px;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  border: solid 1px #f9f9fa;
+  cursor: pointer;
+}
+
+.section-bottom {
+  height: 92px;
+  margin-top: -6px;
+  padding: 30px 20px 30px 20px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .box-container {
+   background-color: blue;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .box-container {
+   background-color: yellow;
+   border: solid 2px black;
+  }
+} */
