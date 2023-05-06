@@ -303,16 +303,3 @@ p { font-family: Poppins, sans-serif; }
   margin-top: -6px;
   padding: 30px 20px 30px 20px;
 }
-
-/* @media screen and (max-width: 768px) {
-  .box-container {
-   background-color: blue;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .box-container {
-   background-color: yellow;
-   border: solid 2px black;
-  }
-} */
